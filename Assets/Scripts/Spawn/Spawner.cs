@@ -20,7 +20,7 @@ public class Spawner : MonoBehaviour
         if(enemyList.Count < 2)
         {
             GameObject newEnemy = Instantiate(prefabEnemy);
-            newEnemy.transform.position = GetComponentInParent<Transform>().position; // location not working properly
+            newEnemy.transform.position = transform.position; // location not working properly
             Enemy enemyScript = newEnemy.GetComponent<Enemy>();
             enemyScript.goal = goalObject.transform;
             enemyList.Add(newEnemy);

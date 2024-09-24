@@ -24,4 +24,6 @@ public class Enemy : MonoBehaviour
             Destroy(gameObject, 1f);
         }
     }
+
+      
 }
