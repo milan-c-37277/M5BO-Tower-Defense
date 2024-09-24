@@ -396,7 +396,7 @@ GameObject:
   - component: {fileID: 5494104872941749627}
   m_Layer: 0
   m_Name: Erika Archer With Bow Arrow@Wheelbarrow Idle
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -436,6 +436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goal: {fileID: 0}
+  spawner: {fileID: 0}
   health: 10
 --- !u!195 &6446656474684028963
 NavMeshAgent:
